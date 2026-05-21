@@ -1,0 +1,83 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    color: #1F2937;
+    background: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer utilities {
+  .text-green-primary {
+    color: #159A23;
+  }
+
+  .bg-green-primary {
+    background-color: #159A23;
+  }
+
+  .bg-green-dark {
+    background-color: #12801E;
+  }
+
+  .border-green-primary {
+    border-color: #159A23;
+  }
+
+  .text-orange-accent {
+    color: #F28C18;
+  }
+
+  .bg-orange-accent {
+    background-color: #F28C18;
+  }
+
+  .bg-orange-dark {
+    background-color: #D97A14;
+  }
+
+  .bg-dark-navy {
+    background-color: #1E293B;
+  }
+
+  .bg-light-gray {
+    background-color: #F6F7F8;
+  }
+
+  .bg-card-gray {
+    background-color: #E8EAED;
+  }
+
+  .border-gray-light {
+    border-color: #D1D5DB;
+  }
+
+  .border-gray-medium {
+    border-color: #E5E7EB;
+  }
+
+  .text-text-secondary {
+    color: #6B7280;
+  }
+
+  .text-text-muted {
+    color: #9CA3AF;
+  }
+}
